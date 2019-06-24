@@ -14,18 +14,19 @@ input {
 button {
   margin-top: 20px;
   font-family: Arial;
-  background-color: #eee;
+  background-color: #FFE000;
   border: none;
   padding: 5px 10px;
   border-radius: 4px;
   cursor: pointer; cursor: hand;
 }
 button:hover {
-  background-color: #cfd8dc;
+  background-color: #000000;
+  color: #FFE000;
 }
 button:disabled {
-  background-color: #eee;
-  color: #ccc;
+  background-color: #FFE000;
+  color: #FFE000;
   cursor: auto;
 }
 
