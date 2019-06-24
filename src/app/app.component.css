@@ -2,29 +2,38 @@
 h1 {
   font-size: 1.2em;
   margin-bottom: 0;
+  color: #FFE000;
+  background-color: #000000;
 }
 h2 {
   font-size: 2em;
   margin-top: 0;
   padding-top: 0;
+  color: #FFE000;
+  background-color: #000000;
 }
 nav a {
   padding: 5px 10px;
   text-decoration: none;
   margin-top: 10px;
   display: inline-block;
-  background-color: #eee;
+  background-color: #5B5A5A;
   border-radius: 4px;
 }
 nav a:visited, a:link {
-  color: #334953;
+  color: #FFE000;
 }
 nav a:hover {
-  color: #039be5;
-  background-color: #CFD8DC;
+  color: #000000;
+  background-color: #FFE000;
 }
 nav a.active {
   color: #039be5;
+}
+div.ex1 {
+  border: 3px solid #000000;
+  background-color: #000000;
+  color: #FFE000;
 }
 
 
